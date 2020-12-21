@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TMNA Microservice
+  description: Store
+  annotations: 
+    github.com/project-slug: skalingclouds/TMNAMicroService
+    backstage.io/github-actions-id: skalingclouds/TMNAMicroService
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Chris
